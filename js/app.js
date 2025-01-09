@@ -9,7 +9,8 @@ function comprar () {
     let quantidade2 = document.getElementById("qtd")
     if (quantidade2.value == "") {alert("Por Favor Insira um Numero para Comprar os Ingressos"); 
     return;}
-    
+    if (quantidade2.value < 0 ) {alert ("Por Favor Insira um Numero positivo para Comprar os Ingressos");
+    return;}
 
 
 
